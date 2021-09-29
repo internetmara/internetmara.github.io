@@ -649,7 +649,22 @@ progress {
   height: 120px;
 }
 
+.proj {
+  display: flex;
+  flex-direction: row;
+  align-self: auto;
+  justify-content: space-between;
+  vertical-align: auto;
+}
 
+.demo-pic {
+  height: 250px;
+  width: 400px;
+  border: 2px solid rgb(168, 165, 165);
+  margin-left: 10px;
+  border-radius: 15px;
+  padding 5px;
+}
 
 .line {
   border: 1px solid rgb(171, 171, 171);
